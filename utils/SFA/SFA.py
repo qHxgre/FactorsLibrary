@@ -2,13 +2,12 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 from typing import Union, Tuple, Optional
-from MFI.utils.DataDownload import *
-from MFI.utils.DataProcess import *
-from MFI.utils.GroupAnalysis import groupAnalyze
-from MFI.utils.Plotting import (plot_group_nv, plot_ic)
-from MFI.utils.SaveReports import (insert_text_to_md, )
+from ..SFA.DataDownload import *
+from ..SFA.DataProcess import *
+from ..SFA.GroupAnalysis import groupAnalyze
+from ..SFA.Plotting import (plot_group_nv, plot_ic)
+from ..SFA.SaveReports import (insert_text_to_md, )
 
-import dai
 
 class SFA:
     """
